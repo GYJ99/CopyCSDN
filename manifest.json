@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "复制神器",
+  "version": "1.0",
+  "description": "一键开启复制功能,多用于CSDN、博客、公众号等受限制的网站",
+  "permissions": [
+    "contentSettings",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "复制神器"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
